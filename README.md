@@ -23,3 +23,5 @@ We can test the JSON content by sending an HTTP POST to the following URL: http:
 
 Type the following cURL command in terminal to issue the POST command:
 > curl -i -X POST http://<hostname>:8080/${project.artifactId}/hello/json/YOUR_NAME
+
+19-05-2020 -- Added a small change to test the github webhook feature
